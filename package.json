@@ -1,0 +1,23 @@
+{
+  "name": "egscript",
+  "version": "1.0.0",
+  "description": "test project example",
+  "main": "google.spec.js",
+  "scripts": {
+    "test": "mocha 'test/**/*spec.js'"
+  },
+  "keywords": [
+    "mocha",
+    "js"
+  ],
+  "author": "famcom labs",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chromedriver": "^115.0.0",
+    "selenium-webdriver": "^4.11.1"
+  }
+}
