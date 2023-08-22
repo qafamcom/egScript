@@ -14,7 +14,6 @@ describe('Google', function() {
   })
   it('Google', async function() {
     await driver.get("https://www.google.com/")
-    //await driver.manage().window().setRect({ width: 1382, height: 744 })
     await driver.manage().window().maximize()
   })
 })
